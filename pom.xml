@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   
     <groupId>com.beans</groupId>
-    <version>0.1.0</version>
+    <version>0.1.1-SNAPSHOT</version>
   <artifactId>employeeprofileservice</artifactId>
   <properties>
 		<spring.data.jpa.version>1.4.3.RELEASE</spring.data.jpa.version>
@@ -17,7 +17,7 @@
     <connection>scm:git:https://github.com/kinmengBGM/employeeprofileservice.git</connection>
     <developerConnection>scm:git:https://github.com/kinmengBGM/employeeprofileservice.git</developerConnection>
     <url>https://github.com/kinmengBGM/employeeprofileservice</url>
-    <tag>employeeprofileservice-0.1.0</tag>
+    <tag>HEAD</tag>
   </scm>
 	<name>EmployeeProfileService Project</name>
   	<description>Employee profile service module.</description>

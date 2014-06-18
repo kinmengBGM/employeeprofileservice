@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <parent>
+  
     <groupId>com.beans</groupId>
-    <artifactId>leaveapp</artifactId>
-    <version>1.0-SNAPSHOT</version>
-  </parent>
+    <version>0.1.0-SNAPSHOT</version>
   <artifactId>employeeprofileservice</artifactId>
   <properties>
 		<spring.data.jpa.version>1.4.3.RELEASE</spring.data.jpa.version>
@@ -15,6 +13,11 @@
 		<project.version>1.0-SNAPSHOT</project.version>
 	</properties>
 	
+<scm>
+    <connection>scm:git:https://github.com/kinmengBGM/employeeprofileservice.git</connection>
+    <developerConnection>scm:git:https://github.com/kinmengBGM/employeeprofileservice.git</developerConnection>
+    <url>https://github.com/kinmengBGM/employeeprofileservice</url>
+  </scm>
 	<name>EmployeeProfileService Project</name>
   	<description>Employee profile service module.</description>
 	<dependencies>
@@ -22,14 +25,17 @@
 		<dependency>
 			<groupId>${project.groupid}</groupId>
 			<artifactId>common</artifactId>
+			<version>0.1.0</version>
 		</dependency>
 		<dependency>
 			<groupId>${project.groupid}</groupId>
 			<artifactId>masterdataservice</artifactId>
+			<version>0.1.0</version>
 		</dependency>
 		<dependency>
 			<groupId>${project.groupid}</groupId>
 			<artifactId>utilities</artifactId>
+			<version>0.1.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.data</groupId>
